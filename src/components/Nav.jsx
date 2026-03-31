@@ -1,6 +1,7 @@
 import React from 'react'
 import { Menu,Car, UserPlus, LogIn} from "lucide-react";
 import { assets } from '../assets/data.js';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
@@ -17,11 +18,21 @@ const Nav = () => {
 
                 {/* Right side */}
                 <div className="hidden md:flex items-center gap-6 space-x-2 font-semibold text-base">
-                    <a href="#" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">Home</a>
-                    <a href="#" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">Cars</a>
-                    <a href="#" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">Services</a>
-                    <a href="#" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">About</a>
-                    <a href="#" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">Contact</a>
+                    <Link to="/" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">
+                        Home
+                    </Link>
+                    <Link to="/cars" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">
+                        Cars
+                    </Link>
+                    <Link to="/services" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">
+                        Services
+                    </Link>
+                    <Link to="/about" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">
+                        About
+                    </Link>
+                    <Link to="/contact" className="text-gray-600 hover:border-b-2 border-blue-400 transform transition-all duration-300 ease-in-out">
+                        Contact
+                    </Link>
                 </div>
 
                 <div className="hidden md:flex items-center gap-4">

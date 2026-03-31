@@ -34,10 +34,8 @@ export const Footer = () => {
   return (
     <footer className="bg-orange-50 border-t border-orange-100 footer-main">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-
         {/* Top Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-
           {/* Brand */}
           <div className="footer-item">
             <div className="flex items-center gap-2">
@@ -112,7 +110,6 @@ export const Footer = () => {
               </button>
             </div>
           </div>
-
         </div>
 
         {/* Bottom Bar */}
