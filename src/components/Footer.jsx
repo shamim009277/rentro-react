@@ -127,7 +127,6 @@ export const Footer = () => {
             <a href="#" className="hover:text-orange-500">Cookies</a>
           </div>
         </div>
-
       </div>
     </footer>
   );
