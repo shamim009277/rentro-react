@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from './Footer'
-import Testimonial from './Testimonial'
-import Banner from './Banner'
+import Footer from '../components/Footer'
+import Testimonial from './../components/Testimonial'
+import Banner from './../components/Banner'
 
 export const Home = () => {
   return (
